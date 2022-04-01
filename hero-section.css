@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+.hero-section {
+    display: flex;
+    background: linear-gradient(90deg, rgba(17,17,25,0.8860586470916492) 5%, rgba(57,62,75,0.9140698515734419) 25%, rgba(41,42,42,1) 48%, rgba(41,42,42,1) 100%);
+    color: #FFFFFF;
+    height: 640px;
+}
+
+.left-hero-column {
+    margin: 20px 50px;
+    width: 800px;
+    height: 600px;
+}
+
+.hero-section > .left-hero-column > .text-left-column-01 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 43px;
+    padding: 40px 0px 0px 0px;
+}
+
+.text-bold-01 {
+    font-weight: bold;
+}
+
+.hero-section > .left-hero-column > .text-left-column-02 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 33px;
+    color: #CCCCCC;
+    padding: 40px 0px 0px 0px;
+}
+
+.body-buttons {
+    padding: 60px 0px 0px 0px;
+    display: flex;
+}
+
+.sign-up-free-btn {
+    background-color: #00db66;
+    color: #000000;
+    font-size: 2em;
+    padding: 15px 20px;
+    border: 1px solid #00db66;
+    border-radius: 3px;
+    outline: none;
+}
+
+.learn-more-btn {
+    background-color: #1c1c1c;
+    color: #FFFFFF;
+    font-size: 2em;
+    padding: 15px 20px;
+    border: 1px solid #1c1c1c;
+    border-radius: 3px;
+    outline: none;
+    margin: 0px 15px;
+}
+
+.text-right-column {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 50px 0px 10px;
+}
+
+.code-blue {
+    color: #01AEE5;
+}
+
+.hero-section > .right-hero-column > .image-right-column img {
+    height: 100%;
+    width: 600px;
+}

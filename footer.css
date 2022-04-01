@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+.footer-01 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #2F3437;
+    border: 2px solid #CCCCCC;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.footer-bold {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+}
+
+.footer-black {
+    background-color: black;
+    width: 100%;
+    height: 125px;
+}
